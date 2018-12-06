@@ -3,7 +3,7 @@ apply plugin: 'maven'
 
 
 def groupName = 'org.liang.plugin'//组名
-def artifactName = 'jaspect'//项目名
+def artifactName = 'aspectjtools'//项目名
 def versionName = '1.0.4'//版本号
 
 group = '${groupName}'
@@ -56,7 +56,7 @@ publish {
     //项目描述
     desc = 'Gradle Plugin for Android'
     //项目网址，建议github开源库网址
-    website = 'https://github.com/18317084205/plugin_jaspect'
+    website = 'https://github.com/18317084205/pluginTest'
     //bintray 的用户名
     bintrayUser = BINTRAY_USER
     //bintray 用户名
